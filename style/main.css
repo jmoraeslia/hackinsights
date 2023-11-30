@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.burger:before,
+.burger span,
+.burger:after {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #eee;
+    border-radius: 2px;
+    position: absolute;
+    opacity: 1;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* Estilo para o cursor piscando */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+#text::after {
+    content: "|";
+    /* Cursor piscando */
+    animation: blink 1s infinite;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a {
+
+    color: #eee;
+}
+
+.menu a:hover {
+    transition: 0.5s;
+    color: rgb(43, 189, 58);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 25px 20px;
+    max-width: 70vw;
+}
+
+#text {
+    color: rgb(43, 189, 58);
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 60px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000000a2;
+}
+
+p {
+    font-size: 18px;
+    color: #eee;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+
+footer .menu a {
+
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    main {
+        max-width: 90vw;
+    }
+
+    #text {
+        line-height: 10vw;
+    }
+
+    h1 {
+        font-size: 11.5vw;
+
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    main p {
+        font-size: 14px;
+    }
+}

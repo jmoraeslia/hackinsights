@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../style/navbar.css">
+  <link rel="stylesheet" href="../style/pages.css">
+  
+  <title>tools</title>
+</head>
+
+<body>
+
+
+
+  <aside class="sidebar">
+    <div class="toggle">
+      <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+    <div class="side-inner">
+      <div class="nav-menu">
+        <ul>
+          <li><a href="../index.html"><span class=""></span>home</a></li>
+          <li class="dropdown">
+            <a href="#" id="down"><span></span>pages</a>
+            <ul class="dropdown-menu">
+
+              <li><a href="./tools.html">tools</a></li>
+              <li><a href="./ctfs.html">CTFs</a></li>
+              <li><a href="./osint.html">OSINT</a></li>
+              <li><a href="./social_engineering.html">social engineering</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+
+
+    <article>
+
+      <h1>
+        Burp Suite (community edition)
+      </h1>
+
+      <p>
+        This framework is a useful tool that pentesters or security pros (and maybe some great developers)
+        use to test certain applications. We don't need to spend so much time explaining and throwing a lot of
+        theoretical information here. Instead, what I wanna do is step into the practical and make sense of the theory
+        through this active learning process.
+      </p>
+      <h2>Before, read this</h2>
+
+      <p>
+        I know that is hard to concentrate and learn new things, It's overwhelming and you need to overcome this. I promisse that it'll worth it. 
+      </p>
+      <h3>How?</h3>
+      <p>
+        What I'm going to say here is valid for <b>EVERYTHING</b> you want to learn and understand: <b>FOCUS ON PRINCIPLES</b> and overlook the rest - you'll learn most of it automatically while doing the work. This is <b>practice</b>.<br>Remember: initially, ignore what is not covered; just set up your environment and hack! (In a secure lab, obviously..)
+      </p>
+
+      <h2>Install</h2>
+
+      <p>
+        If you are using Kali Linux (and i recommend that), you already have the Burp pre-installed. If not, go to <a
+          href="https://portswigger.net/burp/releases#community" target="_blank" rel="external">this link</a> and
+        download the community edition.
+        After installing, we need to configure our browser to accept the interceptions of our requests in order to
+        manipulate them (changing data, mostly).
+      </p>
+
+      <h2>Configure</h2>
+
+      <p>
+        There are several ways to do this. but i will presume here you're using Firefox and i will set up the proxy from
+        the FoxyProxy extension. Download it <a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-basic/"
+          target="_blank" rel="external">here</a>.
+      </p>
+
+      <p>
+        After installing, click in the puzzle icon on the right superior corner of the browser: 
+      </p>
+
+      <div class="instructions">
+        <div>
+          <label>extensions > FoxyProxy </label>
+          <label>go to 'options'</label>
+          <img src="../images/2.png" alt="" >
+        </div>
+
+        <div>
+          <label>then 'proxies' > 'add'</label>
+          <img src="../images/3.png" alt="" >
+        </div>
+
+        <div>
+          <label>this pop up will open, fill this way:</label>
+          <ul>
+            <li>title: <b>burp</b></li>
+            <li>hostname: <b>127.0.0.1</b></li>
+            <li>port: <b>8080</b></li>
+          </ul>
+          <label>then click on 'save'</label>
+          <img src="../images/4.png" alt="" >
+        </div>
+      
+        <label>to allow the proxy intercept your requests, you must click on the 'burp' tab.</label>
+        <label>don't forget to turn off when you finish, clicking on 'disable' tab.</label>
+        <img src="../images/5.png" alt="">
+      </div>
+
+      <p>
+        I would recommend that you pin this extension to make it easier to connect to the proxy.<br>
+
+      </p>
+      
+
+
+    </article>
+
+
+    <article>
+
+      <h1>
+
+      </h1>
+
+    
+
+    </article>
+
+
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+
+
+  <script src="../script/jquery-3.3.1.min.js"></script>
+  <script src="../script/main.js"></script>
+  <script src="../script/script.js"></script>
+
+</body>
+
+</html>
