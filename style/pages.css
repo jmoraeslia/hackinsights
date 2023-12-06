@@ -124,9 +124,9 @@ a:hover {
 
 article {
    padding-bottom: 30px;
-   margin: 10% 0;
-   padding: 2%;
-
+   margin: 60px 0;
+   padding: 20px;
+   width: 100%;
    border-bottom: 1.5px solid #eee;
 
 }
@@ -168,23 +168,15 @@ main a:hover {
       
    }
   
-
-
-
-
-
-}
-@media screen and (max-width: 800px) {
-   article {
-      margin: 30% 0;
-      
-   }
-   h2 {
-      line-height: 30px;
-   }
-
+   @media screen and (max-width: 800px) {
+      main {
+        max-width: 90vw;
+         
+      }
 
 
 
 
 }
+
+
