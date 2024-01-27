@@ -29,7 +29,7 @@ main {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   max-width: 55vw;
+   max-width: 40vw;
    margin: auto;
    height: fit-content;
    justify-self: center;
@@ -46,16 +46,6 @@ img {
    background-color: rgba(43, 189, 58, 0.671);
 
 }
-.question {
-   font-size: 20px;
-   text-decoration: underline;
-}
-.answer {
-   font-size: 20px;
-   font-weight: 900;
-   color: rgb(43, 189, 58);
-   padding: 20px 20px 0 20px;
-}
 
 ul {
    list-style: none;
@@ -63,6 +53,7 @@ ul {
 }
 
 li {
+   font-weight: 900;
    color: #000;
    margin-bottom: 10px;
 }
@@ -85,7 +76,8 @@ h2 {
 }
 
 .image {
-   width: 60%;
+   width: 100%;
+   margin: 10px 0;
 }
 
 .image img {
@@ -174,18 +166,13 @@ main a:hover {
    position: absolute;
 }
 
-.image {
-   margin: 10px 0;
-}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
    main {
-      max-width: 65vw;
+      max-width: 60vw;
 
    }
-   .image {
-      width: 100%;
-   }
+ 
 }
 
    @media screen and (max-width: 800px) {
