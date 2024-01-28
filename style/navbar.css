@@ -129,7 +129,7 @@ aside .side-inner .nav-menu ul li a:hover:before {
 }
 .nav-menu ul li a:hover {
   transition: 0.5s;
-  color: rgb(38, 167, 51);
+  color: rgb(32, 209, 49);
 }
 
 aside .side-inner .nav-menu ul li.active a:before {

@@ -47,7 +47,7 @@ body {
 
 a:hover {
     transition: 0.5s;
-    color: rgb(26, 176, 41);
+    color: rgb(32, 209, 49);
 }
 
 main {
@@ -60,7 +60,7 @@ main {
 }
 
 #text {
-    color: rgb(26, 176, 41);
+    color: rgb(32, 209, 49);
     margin-bottom: 60px;
 }
 
@@ -95,24 +95,20 @@ footer .menu a {
         max-width: 90vw;
     }
 
-    #text {
-        line-height: 10vw;
-    }
-
     h1 {
-        font-size: 60px;
-
+        font-size: 80px;
+        line-height: 76px;
+     
     }
+
+ 
 
 }
 
 
 @media screen and (max-width: 500px) {
-    h1 {
-        font-size: 50px;
-
-    }
+/*  
     main p {
         font-size: 16px;
-    }
+    } */
 }
