@@ -12,25 +12,57 @@ body {
   align-items: center;
 }
 h1 {
-  color: rgb(38, 167, 51);
+  color: rgb(26, 176, 41);
   font-size: 90px;
+  line-height: 69px;
+}
+p {
+  color: #eee;
+  margin: 50px 0 15px 0;
+  font-size: 20px;
+}
+.intro {
+  
+  /* border-bottom: 1px solid #eee; */
+
+}
+.burger:before, .burger span, .burger:after {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: #eee;
+  border-radius: 2px;
+  position: absolute;
+  opacity: 1; 
+}
+span {
+  color: rgb(141, 186, 145);
 }
 a {
   color: #eee;
-  font-size: 20px;
-  text-decoration: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  
 }
 a:hover {
   transition: 0.5s;
-  /* color: rgb(141, 186, 145); */
-  text-decoration: #eee;
+  color: rgb(141, 186, 145);
+  
 }
-ul {
+main ul {
   list-style: none;
   margin: 6% 0;
+  padding: 0 20px;;
+  border-left: 1px solid #eee;
 }
 main {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  
+  padding: 40px 5%;
+}
+@media screen and (max-width:1000px) {
+  h1 {
+    font-size: 9vw;
+  }
 }
