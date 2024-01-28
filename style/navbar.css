@@ -47,7 +47,7 @@ aside {
 }
 
 aside .toggle {
-  padding: 20px;
+  padding:20px;
   position: absolute;
   right: 0;
   
@@ -240,7 +240,12 @@ aside .side-inner .nav-menu ul li.active a:before {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 850px) {
+
+
+aside .toggle {
+  padding: 10px 20px 20px 10px;
+}
     .burger {
         width: 20px;
         
