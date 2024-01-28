@@ -25,7 +25,6 @@ body.show-sidebar:before {
 }
 
 aside {
-  font-family: 'Poppins', sans-serif;
   width: 350px;
   left: 0;
   z-index: 1001;
@@ -64,6 +63,10 @@ aside .toggle {
 
 }
 
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
 .show-sidebar aside {
   -webkit-box-shadow: 10px 0 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 10px 0 30px 0 rgba(0, 0, 0, 0.1);
@@ -86,7 +89,7 @@ aside .side-inner .nav-menu ul li {
 aside .side-inner .nav-menu ul li a {
   display: block;
   padding: 10px 20px;
-  color: #eee;
+  /* color: #eee; */
   position: relative;
   -webkit-transition: .3s padding-left ease;
   -o-transition: .3s padding-left ease;
@@ -124,8 +127,8 @@ aside .side-inner .nav-menu ul li a:hover:before {
   visibility: visible;
 
 }
-
-aside .side-inner .nav-menu ul li.active a {
+.nav-menu ul li a:hover {
+  transition: 0.5s;
   color: rgb(38, 167, 51);
 }
 
@@ -215,7 +218,6 @@ aside .side-inner .nav-menu ul li.active a:before {
   position: absolute;
   left: 20px;
   background-color: transparent;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
@@ -223,14 +225,11 @@ aside .side-inner .nav-menu ul li.active a:before {
 .dropdown-menu li {
   padding: 10px;
   width: 100%;
+ 
+
 }
 
 /*   
-Estilo para o link do dropdown */
-.dropdown-menu a:hover {
-  color: #000;
-}
-
 /* Estilo quando o link do dropdown está ativo */
 .dropped {
   display: flex;
@@ -240,10 +239,6 @@ Estilo para o link do dropdown */
 
 }
 
-.dropdown-menu.dropped a:hover {
-  color: rgb(38, 167, 51);
-  transition: 0.5s;
-}
 
 @media screen and (max-width: 500px) {
     .burger {
