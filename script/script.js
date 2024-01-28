@@ -1,6 +1,6 @@
 
 // Frase que você deseja exibir
-const a = "Deeply explore your curiosity; learn about what excites you most.";
+const a = "deeply explore your curiosity. learn about what excites you most.";
 
 // Obter o elemento <p> pelo ID
 const element = document.getElementById('text');
