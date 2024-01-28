@@ -11,15 +11,14 @@
     background: #eee;
     border-radius: 2px;
     position: absolute;
-    opacity: 1; }
+    opacity: 1; 
+}
 
 
 a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-    /* margin-left: 20px; */
-    /* padding: 5px 10px; */
 }
 p {
     color: #eee;
