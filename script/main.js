@@ -39,7 +39,7 @@ $(function() {
     
   const down = document.getElementById('down');
   const dropdownMenu = document.querySelector('.dropdown-menu');
-
+  const pagesLink = document.querySelector('.nav-menu')
   
   down.addEventListener('mouseover', function (e) {
     
