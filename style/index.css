@@ -25,11 +25,12 @@ body {
   /* background-attachment: fixed; */
 }
 .about_background {
-  background-image: url(../pages/social_engineering/images/answer.png);
+  background-image: url(../pages/useful_tools/images/back.jpg);
   width: 100%;
-  background-position: bottom;
+  background-position: center;
   height: 400px;
   margin: 30px 0;
+  filter: grayscale(100%);
   /* background-attachment: fixed; */
 }
 .image img {
