@@ -51,7 +51,7 @@ $(function() {
 
   
   document.addEventListener('mouseout', function (e) {
-    if (!pagesLink.contains(e.target) && !dropdownMenu.contains(e.target)) {
+    if (!dropdownMenu.contains(e.target)) {
       dropdownMenu.classList.remove('dropped');
     }
 });
