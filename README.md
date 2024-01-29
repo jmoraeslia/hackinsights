@@ -1,3 +1,3 @@
 # overview
 
-![inputs](./images/demo.png)
+![inputs](./pagespng)
