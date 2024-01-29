@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .burger:before,
@@ -55,60 +57,53 @@ main {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    padding: 0 5%;
-    max-width: 70vw;
+    padding: 0 50px;
+    max-width: 80vw;
 }
 
 #text {
     color: rgb(32, 209, 49);
-    margin-bottom: 60px;
+    margin: 0 0 40px 0;
 }
 
 h1 {
-    font-size: 80px;
-    line-height: 60px;
-   
-    text-shadow: 1px 1px 2px #000000a2;
-}
-
-p {
-    font-size: 18px;
-    color: #eee;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    padding: 20px;
-}
-
-footer .menu a {
-
-    margin-right: 10px;
-    font-size: 16px;
+    font-size: 100px;
+    line-height: 80px;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
-    main {
-        max-width: 90vw;
-    }
 
     h1 {
-        font-size: 70px;
-        line-height: 56px;
+        font-size:90px;
+        line-height:65px;
      
     }
 
- 
+   main {
+     justify-content: end;
+        max-width: 90vw;
+        word-wrap: break-word;
+    } 
 
 }
 
 
-@media screen and (max-width: 500px) {
-/*  
-    main p {
-        font-size: 16px;
-    } */
+@media screen and (max-width: 550px) {
+ 
+    h1 {
+        font-size: 70px;
+        line-height: 50px;
+    }
+    main {
+       
+      
+       padding:0 40px ;
+        
+    }
+
+
+    
+
 }

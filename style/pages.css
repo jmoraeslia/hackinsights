@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -51,15 +53,18 @@ li {
 }
 
 h1 {
-
+   font-weight: 500;
    font-size: 80px;
    line-height: 66px;
+   letter-spacing: -5px;
+   
 }
 
 h2 {
-   font-size: 35px;
+   font-size: 45px;
    margin: 40px 0 0 0;
    line-height: 30px;
+   letter-spacing: -2px;
 }
 
 .image {
@@ -78,7 +83,7 @@ h2,
 h3,
 h4,
 h5 {
-
+   font-weight: 500;
    padding-top: 30px;
    color: #000;
 
@@ -159,7 +164,7 @@ main a:hover {
    h1 {
       font-size: 60px;
       line-height: 49px;
-      letter-spacing: -5px;
+     
    }
 
    article {
@@ -170,14 +175,7 @@ main a:hover {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
-
-   h1 {
-      font-size: 53px;
-      line-height: 43px;
-   }
-
-
-
-}
+   
+ }
