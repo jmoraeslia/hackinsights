@@ -151,7 +151,9 @@ h1 {
 @media screen and (max-width:600px) {
   .intro h1 {
     font-size: 60px;
-    line-height: 49px;}
+    line-height: 49px;
+    letter-spacing: -5px;
+  }
 
   .background {
     background-image: url(../pages/social_engineering/images/indexbackground.png);
