@@ -157,9 +157,9 @@ main a:hover {
    }
 
    h1 {
-      font-size: 9vw;
-      line-height: 8vw;
-      word-wrap: break-word;
+      font-size: 60px;
+      line-height: 49px;
+      letter-spacing: -5px;
    }
 
    article {
