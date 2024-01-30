@@ -156,6 +156,11 @@ h1 {
     line-height: 49px;
     
   } */
+  .background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .tools_background {
    background-image: url("../pages/useful_tools/images/bad.png");
