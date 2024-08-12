@@ -26,12 +26,12 @@ body {
   /* background-attachment: fixed; */
 }
 .about_background {
-  background-image: url(../pages/social_engineering/images/about.png);
+  background-image: url(../pages/social_engineering/images/about.jpeg);
   width: 100%;
-  background-position: center;
   height: 400px;
+  background-position: center;
   margin: 30px 0;
-  filter: grayscale(100%);
+  filter: grayscale(90%);
   /* background-attachment: fixed; */
 }
 .image img {
@@ -170,7 +170,7 @@ h1 {
     background-image: url("../pages/osint_techniques/images/info2.png");
   }
   .about_background {
-    background-image: url("../pages/social_engineering/images/about2.jpg");
+    background-image: url("../pages/social_engineering/images/about2.jpeg");
   }
   
 }
