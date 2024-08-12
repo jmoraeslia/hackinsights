@@ -82,6 +82,23 @@ img {
   background-image: url("../pages/useful_tools/images/bad1.png");
   /* background-attachment: fixed; */
 }
+.issues_background {
+  width: 100%;
+  background-position: left;
+  height: 400px;
+  margin: 30px 0;
+  background-image: url("../pages/common_issues/images/issues_background.jpeg");
+  /* background-attachment: fixed; */
+}
+.bugbounty_background {
+  filter: grayscale(100%);
+  width: 100%;
+  background-position: left;
+  height: 400px;
+  margin: 30px 0;
+  background-image: url("../pages/bugbounty/images/bugbounty_background.jpeg");
+  /* background-attachment: fixed; */
+}
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
